@@ -8,7 +8,7 @@ I build AI-powered systems that do real work. From identifying the opportunity t
 
 ## 📊 What I've Built
 
-- **AI Triage Pipeline:** Deployed an LLM-powered system (Intercom Fin AI + Claude + Zapier) that autonomously resolves 67% of enterprise customer inquiries, eliminating 150+ hours of manual work per month.
+- **AI Triage Pipeline:** Built the business case for Intercom Fin AI adoption, secured stakeholder buy-in, and led the full deployment. The system now autonomously resolves 67% of enterprise customer inquiries, eliminating 150+ hours of manual work per month.
 - **Meeting to Jira Automation:** Python pipeline that reads a raw meeting transcript, extracts every action item, classifies by type and priority, and outputs structured Jira-ready tickets in under 1 second.
 - **Churn Risk Framework:** Three-stage Python pipeline merging CRM, Support, and Product data to surface silent churn risk in high-value accounts before it becomes a cancellation.
 
