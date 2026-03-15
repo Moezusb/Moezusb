@@ -23,4 +23,4 @@ I bridge the gap between complex business operations and technical AI implementa
 ---
 
 📫 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/bah-007700/) | Senior Operations Associate @ Acuity Insights
-Email: *(mohamedmoezus@gmail.com)*
+- Email: *(mohamedmoezus@gmail.com)*
