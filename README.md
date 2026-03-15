@@ -18,7 +18,9 @@ I bridge the gap between complex business operations and technical AI implementa
 - **Ops:** Intercom Fin AI, Salesforce, Jira, HubSpot, Zendesk.
 
 ## 📊 Proof of Work
-Work in progress -- projects launching soon.
+* **[Strategic Revenue Bridge](https://github.com/Moezusb/revenue-bridge-analytics)**: A Python/SQL framework for identifying churn risk in high-value Enterprise accounts.
+* **[Professional Portfolio](https://moezusb.github.io)**: My executive-track portfolio site built with Forest Green Brutalist design.
+
 
 ---
 
