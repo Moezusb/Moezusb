@@ -1,28 +1,33 @@
 # Hi, I'm Mohamed Bah 👋
 
-### Senior Operations Leader | AI Enablement | Data Strategy
-Based in **Canada** (Bilingual EN/FR)
+### Senior Operations & AI Enablement | Bilingual EN/FR | Canada
 
-I bridge the gap between complex business operations and technical AI implementation. My focus is on transforming manual workflows into automated, high-scale systems that drive measurable ROI.
+I build AI-powered systems that do real work. From identifying the opportunity to securing stakeholder buy-in to shipping the solution -- I own the full arc.
 
 ---
 
-## 🚀 What I’m Building
-- **AI Triage Systems:** Deploying LLM-powered pipelines (Claude/Zapier) that reduce manual intervention by 60%+.
-- **Operations Intelligence:** Using Python and SQL to turn messy SaaS data into executive-level insights.
-- **Scalable Governance:** Building frameworks for AI ethics and safe deployment in B2B SaaS environments.
+## 📊 What I've Built
+
+- **AI Triage Pipeline:** Deployed an LLM-powered system (Intercom Fin AI + Claude + Zapier) that autonomously resolves 67% of enterprise customer inquiries, eliminating 150+ hours of manual work per month.
+- **Meeting to Jira Automation:** Python pipeline that reads a raw meeting transcript, extracts every action item, classifies by type and priority, and outputs structured Jira-ready tickets in under 1 second.
+- **Churn Risk Framework:** Three-stage Python pipeline merging CRM, Support, and Product data to surface silent churn risk in high-value accounts before it becomes a cancellation.
+
+---
 
 ## 🛠️ Technical Stack
-- **AI:** Prompt Engineering (Claude/Gemini/OpenAI), LLM API Integration, Zapier AI.
-- **Data:** Python (Pandas, Plotly), SQL, Advanced Excel.
-- **Ops:** Intercom Fin AI, Salesforce, Jira, HubSpot, Zendesk.
 
-## 📊 Proof of Work
-* **[Strategic Revenue Bridge](https://github.com/Moezusb/revenue-bridge-analytics)**: A Python/SQL framework for identifying churn risk in high-value Enterprise accounts.
-* **[Professional Portfolio](https://moezusb.github.io)**: My executive-track portfolio site built with Forest Green Brutalist design.
-
+- **AI & Automation:** Claude API, Intercom Fin AI, Gemini, Zapier, Prompt Engineering
+- **Data & Analysis:** Python (Pandas, Matplotlib), SQL, Advanced Excel
+- **Ops & CX:** Salesforce Service Cloud, Jira, Confluence, Notion, HubSpot, Zendesk
 
 ---
 
-📫 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/bah-007700/) | Senior Operations Associate @ Acuity Insights
-- Email: *(mohamedmoezus@gmail.com)*
+## 🔗 Projects
+
+- **[Meeting to Jira Pipeline](https://github.com/Moezusb/meeting-to-jira-pipeline)**
+- **[Revenue Bridge Analytics](https://github.com/Moezusb/revenue-bridge-analytics)**
+- **[Portfolio Site](https://moezusb.github.io)**
+
+---
+
+📫 **Connect:** [LinkedIn](https://www.linkedin.com/in/bah-007700/) | [mohamedmoezus@gmail.com](mailto:mohamedmoezus@gmail.com)
