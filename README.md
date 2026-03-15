@@ -18,7 +18,7 @@ I bridge the gap between complex business operations and technical AI implementa
 - **Ops:** Intercom Fin AI, Salesforce, Jira, HubSpot, Zendesk.
 
 ## 📊 Proof of Work
-*Check out my pinned repositories below for live demos of my triage logic and data visualization dashboards.*
+Work in progress -- projects launching soon.
 
 ---
 
