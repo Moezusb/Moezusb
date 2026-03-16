@@ -1,6 +1,6 @@
 # Hi, I'm Mohamed Bah 👋
 
-### Senior Operations & AI Enablement | Bilingual EN/FR | Canada
+### Senior Operations Associate & AI Enablement Specialist | Bilingual EN/FR | Canada
 
 I build AI-powered systems that do real work. From identifying the opportunity to securing stakeholder buy-in to shipping the solution -- I own the full arc.
 
