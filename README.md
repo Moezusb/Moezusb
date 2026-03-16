@@ -24,8 +24,9 @@ I build AI-powered systems that do real work. From identifying the opportunity t
 
 ## 🔗 Projects
 
-- **[Meeting to Jira Pipeline](https://github.com/Moezusb/meeting-to-jira-pipeline)**
-- **[Revenue Bridge Analytics](https://github.com/Moezusb/revenue-bridge-analytics)**
+- **[Meeting to Jira Pipeline](https://github.com/Moezusb/meeting-to-jira-pipeline):** Python pipeline that extracts action items from meeting transcripts and generates structured Jira-ready tickets automatically.
+- **[Revenue Bridge Analytics](https://github.com/Moezusb/revenue-bridge-analytics):** Three-stage Python pipeline merging CRM, Support, and Product data to surface silent churn risk in high-value accounts.
+- **[Support Triage Engine](https://github.com/Moezusb/support-triage-engine):** Rule-based AI pipeline classifying 1,000 enterprise support tickets across 7 categories with 87.2% accuracy. Isolates critical PR risks for immediate escalation.
 - **[Portfolio Site](https://moezusb.github.io)**
 
 ---
