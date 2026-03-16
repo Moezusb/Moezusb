@@ -20,7 +20,7 @@ I am a senior operations professional with a finance foundation and a bias towar
 
 The through line is consistent: I find where manual work is quietly compounding, build the case for fixing it, and ship the solution end to end. That means writing Python when the problem calls for Python. It means walking a skeptical VP through a business case. It means being accountable for what happens after the demo.
 
-I studied Finance at the University of Alberta. I have operated at Acuity Insights, Trafigura, Morgan Stanley, and UNODC. I have never needed a brand-name pedigree to produce brand-name results.
+I studied Finance at the University of Alberta and I have operated at Acuity Insights, Trafigura, Morgan Stanley, and the UNODC.
 
 ---
 
