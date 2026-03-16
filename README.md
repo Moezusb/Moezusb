@@ -40,7 +40,7 @@ I studied Finance at the University of Alberta and I have operated at Acuity Ins
 ### 🏆 Intercom Fin AI — Enterprise Deployment
 *Acuity Insights, 2024*
 
-Built the business case. Secured stakeholder buy-in. Led the full deployment across enterprise customer support.
+Built the business case. Secured stakeholder buy-in, and deployed across customer support.
 
 <div align="center">
 
@@ -48,7 +48,7 @@ Built the business case. Secured stakeholder buy-in. Led the full deployment acr
 |:--|:--|
 | Autonomous resolution rate | **67% of enterprise inquiries** |
 | Manual work eliminated | **150+ hours per month** |
-| Scope | Full deployment, end to end |
+| Scope | Full deployment, end to end, with particular focus on ROI case |
 
 </div>
 
