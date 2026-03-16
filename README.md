@@ -28,7 +28,7 @@ I studied Finance at the University of Alberta and I have operated at Acuity Ins
 
 | | Role | What I Did |
 |:--|:--|:--|
-| **Acuity Insights** | Senior Operations | Built and automated ops infrastructure for a B2B SaaS platform. Led full deployment of Intercom Fin AI across enterprise support. |
+| **Acuity Insights** | Senior Operations | Built and automated ops infrastructure for a B2B SaaS platform. Led full deployment of Intercom Fin AI across support. |
 | **Trafigura** | Operations | Supported global commodity trading operations at one of the world's largest physical commodity traders. |
 | **Morgan Stanley** | Finance | Capital markets exposure across financial products and client operations. |
 | **UNODC** | Operations | Operational support in an international development context across multilateral programs. |
