@@ -20,7 +20,7 @@ I am a senior operations professional with a finance foundation and a bias towar
 
 The through line is consistent: I find where manual work is quietly compounding, build the case for fixing it, and ship the solution end to end. That means writing Python when the problem calls for Python. It means walking a skeptical VP through a business case. It means being accountable for what happens after the demo.
 
-I studied Finance at the University of Alberta and I have operated at Acuity Insights, Trafigura, Morgan Stanley, and the UNODC.
+I studied Finance at the University of Alberta and have operated at Acuity Insights, Trafigura, Morgan Stanley, and the UNODC.
 
 ---
 
@@ -28,10 +28,10 @@ I studied Finance at the University of Alberta and I have operated at Acuity Ins
 
 | | Role | What I Did |
 |:--|:--|:--|
-| **Acuity Insights** | Senior Operations | Built and automated ops infrastructure for a B2B SaaS platform. Led full deployment of Intercom Fin AI across support. |
-| **Trafigura** | Operations | Supported global commodity trading operations at one of the world's largest physical commodity traders. |
-| **Morgan Stanley** | Finance | Capital markets exposure across financial products and client operations. |
-| **UNODC** | Operations | Operational support in an international development context across multilateral programs. |
+| **Acuity Insights** | Senior Operations | Built and automated ops infrastructure for a B2B SaaS platform. Led full deployment of Intercom Fin AI across enterprise support. |
+| **Trafigura** | Operations | Supported global commodity trading operations at one of the world's largest physical commodity traders. Rerouted key delivery corridors — longer route, 2 days faster, 40% freight cost reduction. |
+| **Morgan Stanley** | Finance | Capital markets exposure across financial products and client operations across North America, EMEA, and APAC. |
+| **UNODC** | Research & Strategy | Synthesized multi-country intelligence into strategic briefs that contributed to $1.4M in secured program funding. |
 
 ---
 
@@ -40,19 +40,26 @@ I studied Finance at the University of Alberta and I have operated at Acuity Ins
 ### 🏆 Intercom Fin AI — Enterprise Deployment
 *Acuity Insights, 2024*
 
-Built the business case. Secured stakeholder buy-in, and deployed across customer support.
-
-<div align="center">
+Built the business case. Secured stakeholder buy-in. Deployed across enterprise customer support end to end.
 
 | Metric | Result |
 |:--|:--|
 | Autonomous resolution rate | **67% of enterprise inquiries** |
 | Manual work eliminated | **150+ hours per month** |
-| Scope | Full deployment, end to end, with particular focus on ROI case |
-
-</div>
+| Scope | Full production deployment — business case through rollout |
 
 This is the project I point to when someone asks what it looks like when AI actually works in production — not as a pilot, not as a proof of concept, but as infrastructure.
+
+---
+
+### [MathVoice — Bilingual Voice Math Tutor](https://mathvoice-web.vercel.app)
+`Next.js` `ElevenLabs` `Web Speech API` `TypeScript`
+
+A bilingual EN/FR voice math tutor for Grade 1–3, built on ElevenLabs TTS and deployed on Vercel. ElevenLabs voices the questions. The browser listens for spoken answers. The child speaks. MathVoice responds — with encouragement or gentle correction, voiced.
+
+Built to demonstrate what ElevenLabs voice technology unlocks when moved beyond content creation and into interactive learning. Fully browser-based, no install required.
+
+> **Note:** The live demo runs on a free-tier ElevenLabs API key with limited monthly credits. If the voice is silent, credits may be exhausted — the app falls back to browser TTS. **Chrome only** — Web Speech API is not supported in Firefox or Safari.
 
 ---
 
@@ -88,15 +95,12 @@ A deployment playbook for enterprise AI — written from the experience of actua
 
 ## Technical Stack
 
-<div align="center">
-
 | Domain | Tools |
 |:--|:--|
-| **AI and Automation** | Claude API · Intercom Fin AI · Gemini · Prompt Engineering · Pydantic |
+| **AI and Automation** | Claude API · ElevenLabs · Intercom Fin AI · Gemini · Prompt Engineering · Pydantic |
 | **Data and Analysis** | Python (Pandas, Matplotlib) · SQL · Excel |
+| **Frontend** | Next.js · TypeScript · React · Vercel |
 | **Operations and CX** | Salesforce · Jira · Confluence · HubSpot · Zendesk · Notion |
-
-</div>
 
 ---
 
@@ -112,10 +116,10 @@ Based in Gatineau, QC. Bilingual EN/FR. Open to remote and hybrid.
 
 ## Side Projects — Finance & Markets
 
-I have a finance degree and I never fully left the field. These are tools I build on weekends to stay sharp on macro and energy markets — not portfolio padding, just genuine curiosity made visible.
+I have a finance degree and I never fully left the field. These are tools I build to stay sharp on macro and energy markets — not portfolio padding, just genuine curiosity made visible.
 
 ### [Yield Curve Monitor](https://moezusb.github.io/yield-curve-monitor)
-Live sovereign yield curves for US Treasury, Government of Canada, and Euro Area — fetched on page load from three free public APIs (no key required). Tracks 2s10s and 3m10y spreads, inversion signals, and NBER recession bands across a 25-year animated timeline.
+Live sovereign yield curves for US Treasury, Government of Canada, and Euro Area — fetched on page load from three free public APIs. Tracks 2s10s and 3m10y spreads, inversion signals, and NBER recession bands across a 25-year animated timeline.
 
 ### [Power Market Stress Monitor](https://moezusb.github.io/power-market-monitor)
 Real-time generation mix, demand, and grid stress indicators across ERCOT, PJM, CAISO, and AESO. Tracks renewables penetration, gas dependency, and reserve margin tightness — the conditions that precede price spikes in physical power markets.
