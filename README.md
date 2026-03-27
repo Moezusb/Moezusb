@@ -97,7 +97,7 @@ A deployment playbook written from the experience of actually shipping AI in a p
 
 | | Role | Notable |
 |:--|:--|:--|
-| **Acuity Insights** | Senior Operations Associate | 5+ years. Built ops infrastructure, automated pipelines, deployed Intercom Fin AI end to end, manage a 20+ person distributed contractor team. |
+| **Acuity Insights** | Senior Operations Associate | 4+ years. Built ops infrastructure, automated pipelines, deployed Intercom Fin AI end to end, manage a 20+ person distributed contractor team. |
 | **Trafigura** | Refined Metals Operator | Rerouted a key delivery corridor — longer route, 2 days faster, 40% freight cost reduction. |
 | **Morgan Stanley** | Wealth Management Associate | Cross-border operations across North America, EMEA, and APAC for HNW and enterprise clients. |
 | **UNODC** | Research & Communications Intern | Contributed to $1.4M in secured program funding for West Africa cross-border crime initiatives. |
