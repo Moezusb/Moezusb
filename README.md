@@ -2,7 +2,7 @@
 
 # Mohamed Bah
 
-**Operations · AI Deployment · Systems Builder · Bilingual EN/FR**
+**Operations · Product · AI Deployment · Systems Builder · Bilingual EN/FR**
 
 *I find where manual work is quietly compounding, build the case for fixing it, and ship the solution end to end.*
 
