@@ -2,13 +2,13 @@
 
 # Mohamed Bah
 
-**Operations · Product · AI Deployment · Systems Builder · Bilingual EN/FR**
+**Operations · Product · Applied AI · Bilingual EN/FR**
 
-*I find where manual work is quietly compounding, build the case for fixing it, and ship the solution end to end.*
+*I find where manual work is quietly compounding, build the case for fixing it, and ship the fix into the live business.*
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-moezusb.github.io-00e5cc?style=flat-square)](https://moezusb.github.io)
+[![Portfolio](https://img.shields.io/badge/Portfolio-moezusb.github.io-2f5d3a?style=flat-square)](https://moezusb.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/bah-007700/)
-[![Email](https://img.shields.io/badge/Email-mohamedmoezus@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:mohamedmoezus@gmail.com)
+[![Email](https://img.shields.io/badge/Email-mohamedmoezus@gmail.com-d9661f?style=flat-square&logo=gmail&logoColor=white)](mailto:mohamedmoezus@gmail.com)
 
 </div>
 
@@ -16,80 +16,81 @@
 
 ## The short version
 
-I'm a senior operations professional who builds things. Not decks about building things — actual pipelines, deployed AI systems, and working tools that sit in production and do their job quietly while people get on with theirs.
+I'm an operator who is at home inside a product team. Over five years across B2B SaaS, clinical trial software, commodities trading, and wealth management, the work that has mattered most is the same shape every time: a team losing hours to something manual, a business case nobody had written yet, and an AI or automation system that now runs in production.
 
-My career has crossed B2B SaaS, global commodity trading, capital markets, and international development. Not because I couldn't pick a lane, but because the most interesting problems tend to ignore industry boundaries, and I've always followed the problems.
+Most recently I was **Product Operations Lead at Castor**, a clinical trial technology company, where I rebuilt release management with Claude under MedTech compliance controls. Before that, at **Acuity Insights**, I took Intercom Fin AI from business case to production.
 
-Finance degree from the University of Alberta. Fluent in English, French, and Fulani/Pular. Based in Gatineau, QC.
-
----
-
-## What I've shipped
-
-### [Deal Desk AI](https://deal-desk-ai.vercel.app) — Live
-`Claude API` `TypeScript` `Next.js` `Vercel`
-
-Post-call intelligence for GTM teams. Paste a sales call transcript, get back a structured deal summary, objection map, next steps, risk flags, and a ready-to-send follow-up email. Built on the Claude API with a Vercel serverless proxy.
-
-The problem it solves: most reps spend 20–30 minutes after a call writing notes that live in a CRM field nobody reads. This cuts that to under 2 minutes and makes the output actually useful.
-
-**[→ Try it live](https://deal-desk-ai.vercel.app)**
+Finance degree from the University of Alberta. Master of Interdisciplinary AI in progress at the University of Ottawa. Fluent in English, French, and Fulani/Pular. Based in Gatineau, QC.
 
 ---
 
-### Intercom Fin AI — Production Deployment
-`Intercom Fin AI` `Experiment Design` `ROI Modelling` `Stakeholder Alignment`
+## Shipped in production
 
-The one I point to when someone asks what it actually looks like when AI works in production — not as a pilot, not as a concept, but as infrastructure running quietly at scale.
+These are systems I built or led inside real companies. The code is not public; the outcomes are.
 
-Built the ROI model. Wrote the business case. Secured executive go/no-go. Designed the experiment framework, ran the controlled pilot, drove full production rollout.
+### Release operations with Claude · Castor
+`Claude Projects` `Jira` `Confluence` `Zendesk` `Regulated software`
+
+- Rebuilt release-note generation: a process that took 15 minutes to over 2 hours per release now produces a draft in **under 3 minutes**, even across hundreds of Jira keys. Each run outputs a Jira-referenced draft, a compliant customer-ready version, and an SME review checklist.
+- A second workflow generates live help center articles, removing a Product-to-Support dependency. I introduced a KPI that no release ships without live notes: **met 100% of the time**.
+- Built a permission-aware Release Board adopted by **26 people** in weekly release planning, cutting meeting length by **50%**.
+- Analyzed thousands of NPS responses and support tickets (2023 to 2026), quantified the two biggest pain points, and surfaced a support pattern leadership then fixed. The work was positively reviewed in a compliance audit.
+
+### Intercom Fin AI · Acuity Insights
+`Intercom Fin AI` `ROI modelling` `Evaluation design` `Human-in-the-loop`
+
+Built the ROI model and business case, designed the evaluation, ran the pilot and acceptance testing, and led the production rollout with human-in-the-loop controls.
 
 | | |
 |:--|:--|
-| Autonomous resolution rate | **67% of all enterprise inquiries** |
+| Autonomous resolution rate | **67%** |
 | Manual work eliminated | **150+ hours per month** |
-| Post-launch instability | **Zero** |
 
 ---
+
+## Public work
+
+### [AI Governance Framework](https://github.com/Moezusb/ai-governance-framework) · [Tier classifier](https://moezusb.github.io/ai-governance-framework/)
+`Framework` `Agents` `Regulated environments`
+
+An operator's playbook for deploying AI that answers, decides, and acts: two-axis risk tiers, four safety gates, agent tool permissions, governance for AI that operators build themselves, and seven working templates. Written from the deployments above.
+
+### [Deal Desk AI](https://deal-desk-ai.vercel.app)
+`Claude API` `Vanilla JS` `Vercel serverless`
+
+Paste a sales call transcript, get a structured deal summary, objections, next steps, risk flags, and a ready-to-send follow-up email. The prompt and model live server-side, so the API key can only be used for this one job.
+
+### [Oracle V2: Meeting to Jira](https://github.com/Moezusb/meeting-to-jira-pipeline)
+`Python` `Pydantic`
+
+Extracts action items from meeting transcripts into validated Jira tickets, and escalates priority when an at-risk enterprise account is affected. A bug blocking a $120K at-risk account is not a "Medium" ticket.
+
+### [Enterprise Triage Scorer](https://moezusb.github.io/enterprise-triage-scorer/)
+`Deterministic scoring` `Support operations`
+
+Interactive scoring and routing for enterprise support tickets: account value, severity, and urgency signals in; routing lane, SLA, and owner out. Deterministic on purpose, so an ops team can audit and tune it.
 
 ### [Revenue Bridge Analytics](https://github.com/Moezusb/revenue-bridge-analytics)
-`Python` `Pandas` `SQL Logic` `Matplotlib`
+`Python` `Pandas`
 
-A three-stage pipeline that merges CRM, Support, and Product usage data to surface silent churn risk before it becomes a cancellation conversation. Built to catch the accounts that look fine on paper and aren't.
+Joins CRM, support, and product usage data (synthetic) into an account health score and a ranked list of accounts to call on Monday, each with the signal that triggered the flag.
 
-The output is a prioritized list of at-risk accounts with the specific signal that triggered the flag — not just a score, but a reason.
+### [QuickBooks Online MCP setup](https://github.com/Moezusb/quickbooks-online-mcp-server)
+`MCP` `Claude Code`
 
----
-
-### [Oracle V2 — Meeting to Jira](https://github.com/Moezusb/meeting-to-jira-pipeline)
-`Python` `Pydantic` `NLP` `Jira API`
-
-Pipeline that reads a raw meeting transcript, extracts every action item, classifies each by type and priority, and cross-references against a revenue database to auto-escalate tickets involving at-risk enterprise clients. Ships Jira-ready JSON in under a second.
-
-The part worth noting: a bug blocking a $120K at-risk account is not a "Medium" ticket by any honest measure. The Revenue Intelligence Gate is what makes the pipeline operationally honest.
+A fork of Intuit's official MCP server, configured so Claude can query QuickBooks Online data with write, update, and delete tools disabled.
 
 ---
 
-### [Support Triage Engine](https://github.com/Moezusb/support-triage-engine)
-`Python` `NLP` `Classification`
+## Lab
 
-Rule-based AI classification of 1,000 support tickets across 7 categories at **87.2% accuracy**. The case study documents the logic-ordering optimization that lifted accuracy by 11 percentage points — which turned out to be a sequencing problem, not a model problem.
+Built out of curiosity, on live data where possible.
 
----
-
-### [MathVoice](https://mathvoice-web.vercel.app)
-`ElevenLabs TTS` `Web Speech API` `Next.js` `TypeScript`
-
-Bilingual EN/FR voice math tutor for Grade 1–3. The browser asks the question out loud. The child answers out loud. MathVoice responds — with encouragement or gentle correction, voiced. No install, no backend, no account. Just Chrome and a kid who needs to practice their sevens.
-
-> Live demo runs on a free-tier ElevenLabs key. If the voice goes silent, credits are out — it falls back to browser TTS. Chrome only (Web Speech API).
-
----
-
-### [AI Governance Framework](https://github.com/Moezusb/ai-governance-framework)
-`Strategic Framework` `Enterprise AI` `Ops Playbook`
-
-A deployment playbook written from the experience of actually shipping AI in a production B2B SaaS environment. Covers risk classification, behavioral dynamics, triple-gate safety protocols, and what governance actually unlocks commercially. Less interesting than the live projects above, but more useful if you're about to deploy something and haven't thought carefully about what happens when it misbehaves.
+- **[Yield Curve Monitor](https://moezusb.github.io/yield-curve-monitor):** live US, Canada, and Euro Area yield curves, 2s10s and 3m10y spreads, and a 25-year timeline.
+- **[Power Market Monitor](https://moezusb.github.io/power-market-monitor):** generation mix, demand, and grid stress across ERCOT, PJM, CAISO, and AESO.
+- **[MathVoice](https://mathvoice-web.vercel.app):** a bilingual EN/FR voice math tutor for Grades 1 to 3.
+- **[Building Energy Advisor](https://moezusb.github.io/energy-advisor-v2/):** retrofit screening for Canadian buildings, with savings, payback, and carbon estimates.
+- **[Cleantech Grants Tracker](https://moezusb.github.io/cleantech-grants-tracker/):** bilingual tracker of Canadian federal and provincial funding programs.
 
 ---
 
@@ -97,48 +98,34 @@ A deployment playbook written from the experience of actually shipping AI in a p
 
 | | Role | Notable |
 |:--|:--|:--|
-| **Acuity Insights** | Senior Operations Associate | 4+ years. Built ops infrastructure, automated pipelines, deployed Intercom Fin AI end to end, manage a 20+ person distributed contractor team. |
-| **Trafigura** | Refined Metals Operator | Rerouted a key delivery corridor — longer route, 2 days faster, 40% freight cost reduction. |
-| **Morgan Stanley** | Wealth Management Associate | Cross-border operations across North America, EMEA, and APAC for HNW and enterprise clients. |
-| **UNODC** | Research & Communications Intern | Contributed to $1.4M in secured program funding for West Africa cross-border crime initiatives. |
+| **Castor** | Product Operations Lead (2026) | Release operations, executive scorecards, and voice of customer for the CPO; member of the company AI squad |
+| **Acuity Insights** | Senior Operations Associate (2022 to 2026) | Intercom Fin AI end to end; escalation redesign (~50% fewer escalations); contractor forecasting for a 20+ person team at 100% SLA adherence |
+| **Trafigura** | Refined Metals Operator | Positions, credit exposure, and P&L across $400M in monthly deal flow; hub relocation that cut freight costs by 40% |
+| **Morgan Stanley** | Wealth Management Associate | KYC/AML reviews across North America, EMEA, and APAC |
+| **UNODC** | Research & Communications Intern | Donor reports contributing to $1.4M in secured funding for West Africa initiatives |
 
 ---
 
-## Technical stack
+## Stack
 
 | | |
 |:--|:--|
-| **AI & Automation** | Claude API · Intercom Fin AI · ElevenLabs · Prompt Engineering · Human-in-the-Loop Design · LLM Pipeline Architecture |
-| **Data & Analytics** | Python (Pandas, Matplotlib) · SQL · Tableau · Looker · Power BI · Cohort Analysis |
-| **Build & Deploy** | TypeScript · Next.js · Vercel · REST APIs · Web Speech API · GitHub |
-| **Operations** | Jira · Confluence · Salesforce · HubSpot · Zendesk · Notion · Titan CTRM |
-
----
-
-## Side projects — markets & curiosity
-
-I have a finance degree and I never fully left the field. These run on live API feeds because static data is boring.
-
-**[Yield Curve Monitor](https://moezusb.github.io/yield-curve-monitor)** — Live sovereign yield curves for US, Canada, and the Euro Area. Tracks 2s10s and 3m10y spreads, inversion signals, and recession bands across a 25-year animated timeline.
-
-**[Power Market Monitor](https://moezusb.github.io/power-market-monitor)** — Real-time generation mix, demand, and grid stress across ERCOT, PJM, CAISO, and AESO. The conditions that precede price spikes in physical power markets, made visible.
-
-Both are single-file HTML tools on GitHub Pages. No frameworks, no backends, no build steps. Sometimes the best architecture is no architecture.
+| **AI & automation** | Claude (Projects, API, Claude Code), Intercom Fin AI, MCP, prompt design, evaluation, human-in-the-loop design, Zapier |
+| **Data** | SQL, Python (pandas), Google Sheets and Apps Script, Excel, Tableau, Looker, Power BI |
+| **Product & delivery** | Jira, Confluence, Notion, SatisMeter, release management, sprint and roadmap scorecards |
+| **Build** | JavaScript, TypeScript, Next.js, REST APIs, Vercel, GitHub Pages |
+| **Platforms** | Intercom, Zendesk, HubSpot, Salesforce Service Cloud, TalentLMS, Titan CTRM |
 
 ---
 
 ## What I'm looking for
 
-Senior operations, AI enablement, or product ops roles where the mandate is to build — not just advise. Most useful to organizations that are past *"should we use AI?"* and into *"how do we do this without breaking what works?"*
+Operations, product operations, or AI enablement roles where the mandate is to build, not just advise. Most useful to teams that are past *"should we use AI?"* and into *"how do we ship it without breaking what works?"*
 
-Drawn to high-growth SaaS, fintech, and AI-first companies where the problems are genuinely hard. Open to early and mid-stage startups with ambitious mandates.
-
-Gatineau, QC. Remote across Canada. Open to relocation.
-
----
+Gatineau, QC. Remote across Canada, open to relocation.
 
 <div align="center">
 
-*Find the friction. Design the fix. Own the outcome.*
+*Find the friction. Build the case. Ship the fix.*
 
 </div>
