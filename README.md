@@ -90,7 +90,6 @@ Built out of curiosity, on live data where possible.
 - **[Power Market Monitor](https://moezusb.github.io/power-market-monitor):** generation mix, demand, and grid stress across ERCOT, PJM, CAISO, and AESO.
 - **[MathVoice](https://mathvoice-web.vercel.app):** a bilingual EN/FR voice math tutor for Grades 1 to 3.
 - **[Building Energy Advisor](https://moezusb.github.io/energy-advisor-v2/):** retrofit screening for Canadian buildings, with savings, payback, and carbon estimates.
-- **[Cleantech Grants Tracker](https://moezusb.github.io/cleantech-grants-tracker/):** bilingual tracker of Canadian federal and provincial funding programs.
 
 ---
 
